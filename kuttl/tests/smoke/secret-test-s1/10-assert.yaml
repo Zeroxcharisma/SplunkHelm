@@ -1,0 +1,7 @@
+---
+apiVersion: enterprise.splunk.com/v3
+kind: LicenseManager
+metadata:
+  name: lc-test
+status:
+  phase: Ready

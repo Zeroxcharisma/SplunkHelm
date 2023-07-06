@@ -1,0 +1,10 @@
+#create new indexer cluster custom resource 
+apiVersion: enterprise.splunk.com/v3
+kind:  ClusterManager
+metadata:
+  name: clustermanager
+  finalizers:
+  - enterprise.splunk.com/delete-pvc
+spec:
+  monitoringConsoleRef:
+    name: example
