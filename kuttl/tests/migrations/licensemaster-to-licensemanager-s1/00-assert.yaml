@@ -1,5 +1,0 @@
-# assert for configmap to be created
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: license-confmap

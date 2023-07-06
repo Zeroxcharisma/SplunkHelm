@@ -1,5 +1,0 @@
-apiVersion: enterprise.splunk.com/v4
-kind: LicenseManager
-metadata:
-  name: test
-spec: {}

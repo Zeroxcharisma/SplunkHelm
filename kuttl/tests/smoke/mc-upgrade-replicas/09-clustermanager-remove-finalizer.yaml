@@ -1,8 +1,0 @@
-apiVersion: enterprise.splunk.com/v3
-kind: ClusterManager
-metadata:
-  name: clustermanager
-  finalizers: []
-spec: 
-  volumes: []
-  imagePullPolicy: "IfNotPresent"
